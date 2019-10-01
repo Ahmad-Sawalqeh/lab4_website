@@ -1,0 +1,44 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color: green;
+}
+header{
+    background-color: lightgreen;
+    color:#000;
+    text-align: center;
+}
+li a{
+    text-decoration: none;
+    color: purple;
+    padding-right: 20px;
+}
+li{
+    display: inline-block;
+}
+main{
+    width:60%;
+    margin:0 auto;
+}
+img{
+    width:40%;
+    padding:20px 0;
+    display:inline-block;
+}
+section{
+    width:50%;
+    display: inline-block;
+    vertical-align: top;
+    padding:100px 0 0 20px;
+}
+section p{
+    padding-bottom: 20px;
+    text-decoration: none;
+}
+footer{
+    padding:20px;
+    text-align: center;
+    font-weight: bold;
+}
