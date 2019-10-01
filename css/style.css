@@ -5,6 +5,13 @@
 body{
     background-color: green;
 }
+button{
+    padding:10px;
+    margin-right:10px;
+    background-color: darkred;
+    color:#fff;
+    font-size:13px;
+}
 header{
     background-color: lightgreen;
     color:#000;
