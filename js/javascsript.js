@@ -19,17 +19,19 @@ alertMe.addEventListener("click",function(){
 });
 
 
-var player = prompt("How many football player in one team?");
+confirm("this massege comes from built-in function in javascript called confirm()");
+
+var player = Number(prompt("How many football player in one team?"));
 // console.log("type of = "+typeof(player));
 
 while(player!=11){
-  player = prompt('Sorry try again, How many football player in one team?');
+  player = Number(prompt('Sorry try again, How many football player in one team?'));
 }
 if(player == 11){
   alert("correct answer");
 }
 
-var showorder=function () {
+function showorder() {
   //input
   var userorder = Number(prompt ('write number between 1 and 10 please?'));
   var orderimage='';
@@ -41,7 +43,7 @@ var showorder=function () {
       }
 
 
-      numberofimages = prompt('could you specify how many iteration you want?');
+      numberofimages = Number(prompt('could you specify how many iteration you want?'));
 
       for (let ctr =0;ctr < numberofimages; ctr++) {
           if (userorder <= 5) {
@@ -53,3 +55,4 @@ var showorder=function () {
   }
   return orderimage;
 };
+// showorder();
