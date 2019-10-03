@@ -41,7 +41,7 @@ var showorder=function () {
       }
 
 
-      numberofimages = prompt('could you specify how many iteration you want?');
+      numberofimages = Number(prompt('could you specify how many iteration you want?'));
 
       for (let ctr =0;ctr < numberofimages; ctr++) {
           if (userorder <= 5) {
