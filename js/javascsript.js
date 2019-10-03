@@ -55,7 +55,5 @@ function showorder() {
   }
   return orderimage;
 };
-<<<<<<< HEAD
+
 // showorder();
-=======
->>>>>>> c22c8665b6b3b8dc27e15e3fd0d77ed53fa6050c
